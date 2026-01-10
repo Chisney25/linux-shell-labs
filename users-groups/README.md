@@ -58,3 +58,37 @@ sudo systemctl restart nginx
 
 All examples are safe to test locally in your WSL environment.  
 Changes will be committed via feature branches and merged to main through PRs.
+
+---
+
+### Exercise 1 — Inspect Users & Groups
+
+- `/etc/passwd` lists all users and basic info
+- `/etc/group` lists groups and members
+- `whoami` shows current user
+- `groups` shows current user’s group memberships
+
+> DevOps relevance: Understanding existing users/groups is critical before granting permissions, adding sudo access, or configuring CI/CD pipelines.
+
+---
+
+### Exercise 2 — Create Users & Groups
+
+- `groupadd devops` creates a group
+- `useradd -m -G devops alice` creates a user with a home directory and adds to a group
+- `passwd` sets the user password
+- `id alice` and `groups alice` verify creation
+
+> DevOps relevance: CI/CD agents, container users, and deployment scripts rely on correct user/group setup.
+
+---
+
+### Exercise 3 — Test Sudo Permissions
+
+- `sudo` allows a permitted user to execute commands as root
+- Misconfigured sudo can break CI/CD pipelines or cause security incidents
+- Always edit `/etc/sudoers` via `visudo` if changes are needed
+
+> DevOps relevance: Ensuring least privilege and controlled root access prevents accidental system-wide changes.
+
+---
