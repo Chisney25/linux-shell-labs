@@ -17,3 +17,10 @@
 - Logs indicate successful log processing and forwarding.
 - No failures or disruptions detected in the logging pipeline.
 
+## Authentication & Security Log Analysis
+
+- Authentication logs record user login activity and privilege escalation.
+- Observed multiple sudo-related entries indicating administrative actions.
+- SSH-related events show successful sessions with no failed login attempts observed.
+- No suspicious or repeated authentication failures detected.
+
