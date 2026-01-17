@@ -16,3 +16,9 @@ All changes are delivered via feature branches and reviewed through pull request
 - Top memory-consuming process:
 - Notes on system health:
 
+## htop / Task Manager Observations
+
+- Differences vs top:
+- Useful features (tree view, filtering):
+- Observed high resource processes:
+
