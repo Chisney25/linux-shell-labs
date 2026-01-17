@@ -1,0 +1,58 @@
+Jan 14 16:11:41 CHISNEY systemd[1]: Stopping rsyslog.service - System Logging Service...
+Jan 14 16:11:41 CHISNEY rsyslogd[228]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="228" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Jan 14 16:11:41 CHISNEY systemd[1]: rsyslog.service: Deactivated successfully.
+Jan 14 16:11:41 CHISNEY systemd[1]: Stopped rsyslog.service - System Logging Service.
+Jan 14 16:11:41 CHISNEY systemd[1]: rsyslog.service: Consumed 20.886s CPU time, 3.0M memory peak, 1.0M memory swap peak.
+-- Boot b2ac4fbe574d4a3e8237d5dd98048563 --
+Jan 15 14:51:18 CHISNEY systemd[1]: Starting rsyslog.service - System Logging Service...
+Jan 15 14:51:19 CHISNEY systemd[1]: Started rsyslog.service - System Logging Service.
+Jan 15 14:51:19 CHISNEY rsyslogd[230]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+Jan 15 14:51:19 CHISNEY rsyslogd[230]: rsyslogd's groupid changed to 102
+Jan 15 14:51:19 CHISNEY rsyslogd[230]: rsyslogd's userid changed to 102
+Jan 15 14:51:19 CHISNEY rsyslogd[230]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="230" x-info="https://www.rsyslog.com"] start
+Jan 15 15:58:56 CHISNEY systemd[1]: Stopping rsyslog.service - System Logging Service...
+Jan 15 15:58:56 CHISNEY rsyslogd[230]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="230" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Jan 15 15:58:56 CHISNEY systemd[1]: rsyslog.service: Deactivated successfully.
+Jan 15 15:58:56 CHISNEY systemd[1]: Stopped rsyslog.service - System Logging Service.
+-- Boot 1246099109a04d929ca31f15d84e7037 --
+Jan 15 16:01:36 CHISNEY systemd[1]: Starting rsyslog.service - System Logging Service...
+Jan 15 16:01:38 CHISNEY rsyslogd[202]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+Jan 15 16:01:38 CHISNEY systemd[1]: Started rsyslog.service - System Logging Service.
+Jan 15 16:01:38 CHISNEY rsyslogd[202]: rsyslogd's groupid changed to 102
+Jan 15 16:01:38 CHISNEY rsyslogd[202]: rsyslogd's userid changed to 102
+Jan 15 16:01:38 CHISNEY rsyslogd[202]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="202" x-info="https://www.rsyslog.com"] start
+Jan 15 16:07:15 CHISNEY rsyslogd[202]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="202" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Jan 15 16:07:15 CHISNEY systemd[1]: Stopping rsyslog.service - System Logging Service...
+Jan 15 16:07:15 CHISNEY systemd[1]: rsyslog.service: Deactivated successfully.
+Jan 15 16:07:15 CHISNEY systemd[1]: Stopped rsyslog.service - System Logging Service.
+-- Boot cc62e303e196416682c47f8791a37eb5 --
+Jan 15 16:07:39 CHISNEY systemd[1]: Starting rsyslog.service - System Logging Service...
+Jan 15 16:07:40 CHISNEY rsyslogd[208]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+Jan 15 16:07:40 CHISNEY systemd[1]: Started rsyslog.service - System Logging Service.
+Jan 15 16:07:40 CHISNEY rsyslogd[208]: rsyslogd's groupid changed to 102
+Jan 15 16:07:40 CHISNEY rsyslogd[208]: rsyslogd's userid changed to 102
+Jan 15 16:07:40 CHISNEY rsyslogd[208]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="208" x-info="https://www.rsyslog.com"] start
+Jan 15 17:07:51 CHISNEY systemd[1]: Stopping rsyslog.service - System Logging Service...
+Jan 15 17:07:51 CHISNEY rsyslogd[208]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="208" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Jan 15 17:07:51 CHISNEY systemd[1]: rsyslog.service: Deactivated successfully.
+Jan 15 17:07:51 CHISNEY systemd[1]: Stopped rsyslog.service - System Logging Service.
+-- Boot 2f88965901124f90a4dcc6b2fabf2fea --
+Jan 16 13:25:06 CHISNEY systemd[1]: Starting rsyslog.service - System Logging Service...
+Jan 16 13:25:06 CHISNEY rsyslogd[212]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+Jan 16 13:25:06 CHISNEY systemd[1]: Started rsyslog.service - System Logging Service.
+Jan 16 13:25:06 CHISNEY rsyslogd[212]: rsyslogd's groupid changed to 102
+Jan 16 13:25:06 CHISNEY rsyslogd[212]: rsyslogd's userid changed to 102
+Jan 16 13:25:06 CHISNEY rsyslogd[212]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="212" x-info="https://www.rsyslog.com"] start
+Jan 16 13:25:07 CHISNEY systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 212 (rsyslogd) on client request.
+Jan 16 13:25:07 CHISNEY rsyslogd[212]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="212" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Jan 16 15:02:17 CHISNEY systemd[1]: Stopping rsyslog.service - System Logging Service...
+Jan 16 15:02:17 CHISNEY rsyslogd[212]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="212" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Jan 16 15:02:17 CHISNEY systemd[1]: rsyslog.service: Deactivated successfully.
+Jan 16 15:02:17 CHISNEY systemd[1]: Stopped rsyslog.service - System Logging Service.
+-- Boot 0f663a8974294d68a64b6a7744da0208 --
+Jan 16 17:16:23 CHISNEY systemd[1]: Starting rsyslog.service - System Logging Service...
+Jan 16 17:16:25 CHISNEY systemd[1]: Started rsyslog.service - System Logging Service.
+Jan 16 17:16:25 CHISNEY rsyslogd[237]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+Jan 16 17:16:25 CHISNEY rsyslogd[237]: rsyslogd's groupid changed to 102
+Jan 16 17:16:25 CHISNEY rsyslogd[237]: rsyslogd's userid changed to 102
+Jan 16 17:16:25 CHISNEY rsyslogd[237]: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="237" x-info="https://www.rsyslog.com"] start
