@@ -1,0 +1,9 @@
+2026-01-16T14:08:19.831149+01:00 CHISNEY sudo: devcontainers : TTY=pts/0 ; PWD=/home/devcontainers ; USER=root ; COMMAND=/usr/bin/tar -czf /home/devcontainers/backups/gatekeeper_backup_2026-01-16_14-08-12.tar.gz /etc/nginx/sites-available/gatekeeper /etc/nginx/nginx.conf /home/devcontainers/gatekeeper/sentry.py
+2026-01-16T14:08:19.839372+01:00 CHISNEY sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-01-16T14:08:19.865589+01:00 CHISNEY sudo: pam_unix(sudo:session): session closed for user root
+2026-01-16T14:12:39.681565+01:00 CHISNEY sudo: devcontainers : TTY=pts/0 ; PWD=/home/devcontainers ; USER=root ; COMMAND=/usr/bin/tar -czf /home/devcontainers/backups/gatekeeper_backup_2026-01-16_14-12-39.tar.gz /etc/nginx/sites-available/gatekeeper /etc/nginx/nginx.conf /home/devcontainers/gatekeeper/sentry.py
+2026-01-16T14:12:39.726633+01:00 CHISNEY sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-01-16T14:12:39.726869+01:00 CHISNEY sudo: pam_unix(sudo:session): session closed for user root
+2026-01-17T23:19:40.647724+01:00 CHISNEY sudo: devcontainers : TTY=pts/4 ; PWD=/home/devcontainers/linux-shell-labs ; USER=root ; COMMAND=/usr/bin/less /var/log/auth.log
+2026-01-17T23:19:40.669479+01:00 CHISNEY sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1001)
+2026-01-17T23:20:08.676114+01:00 CHISNEY sudo: pam_unix(sudo:session): session closed for user root

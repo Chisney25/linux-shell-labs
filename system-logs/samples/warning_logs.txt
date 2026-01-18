@@ -1,0 +1,176 @@
+Jan 14 00:21:39 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:49:25 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:53:35 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:56:12 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:56:49 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:58:01 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:58:15 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:58:50 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 11:23:55 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 16:11:38 CHISNEY Exception: 
+Jan 14 16:11:38 CHISNEY unknown: Operation canceled @p9io.cpp:258 (AcceptAsync)
+Jan 14 16:11:38 CHISNEY unknown: 
+Jan 14 16:11:38 CHISNEY Exception: 
+Jan 14 16:11:38 CHISNEY unknown: Operation canceled @p9io.cpp:258 (AcceptAsync)
+Jan 14 16:11:38 CHISNEY unknown: 
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: SendMessage:131: Failed to write message LxGnsMessagePortListenerRelayStop. Channel: localhost
+Jan 14 16:11:39 CHISNEY unknown: WSL (176) ERROR: Broken pipe @C:/__w/1/s/src/shared/inc\SocketChannel.h:132 (SendMessage)
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: SendMessage:131: Failed to write message LxGnsMessagePortListenerRelayStop. Channel: localhost
+Jan 14 16:11:39 CHISNEY unknown: WSL (176) ERROR: Broken pipe @C:/__w/1/s/src/shared/inc\SocketChannel.h:132 (SendMessage)
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: SendMessage:131: Failed to write message LxGnsMessagePortListenerRelayStop. Channel: localhost
+Jan 14 16:11:39 CHISNEY unknown: WSL (176) ERROR: Broken pipe @C:/__w/1/s/src/shared/inc\SocketChannel.h:132 (SendMessage)
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: SendMessage:131: Failed to write message LxGnsMessagePortListenerRelayStop. Channel: localhost
+Jan 14 16:11:39 CHISNEY unknown: WSL (176) ERROR: Broken pipe @C:/__w/1/s/src/shared/inc\SocketChannel.h:132 (SendMessage)
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: SendMessage:131: Failed to write message LxGnsMessagePortListenerRelayStop. Channel: localhost
+Jan 14 16:11:39 CHISNEY unknown: WSL (176) ERROR: Broken pipe @C:/__w/1/s/src/shared/inc\SocketChannel.h:132 (SendMessage)
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: RunPortTracker:499: Failed to start the guest side of the localhost relay
+Jan 14 16:11:42 CHISNEY systemd[1]: Failed unmounting init.mount - /init.
+-- Boot b2ac4fbe574d4a3e8237d5dd98048563 --
+Jan 15 14:51:16 CHISNEY kernel: MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+Jan 15 14:51:16 CHISNEY kernel: MMIO Stale Data CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html for more details.
+Jan 15 14:51:16 CHISNEY kernel: PCI: Fatal: No config space access function found
+Jan 15 14:51:16 CHISNEY kernel: PCI: System does not support PCI
+Jan 15 14:51:16 CHISNEY kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Jan 15 14:51:16 CHISNEY kernel: hv_balloon: Cold memory discard hypercall failed with status 1800000005
+Jan 15 14:51:16 CHISNEY kernel: hv_balloon: Underlying Hyper-V does not support order less than 9. Hypercall failed
+Jan 15 14:51:16 CHISNEY kernel: hv_balloon: Defaulting to page_reporting_order 9
+Jan 15 14:51:16 CHISNEY unknown: WSL (176) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 15 14:51:16 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 15 14:51:16 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 15 14:51:16 CHISNEY kernel: weston[196]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+Jan 15 14:51:16 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 15 14:51:16 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 15 14:51:16 CHISNEY systemd-journald[64]: File /var/log/journal/3df124757ec048d185f7a09f74b05789/system.journal corrupted or uncleanly shut down, renaming and replacing.
+Jan 15 14:51:16 CHISNEY systemd-sysctl[82]: Couldn't write '1' to 'kernel/apparmor_restrict_unprivileged_userns', ignoring: No such file or directory
+Jan 15 14:51:18 CHISNEY (cron)[168]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jan 15 14:51:21 CHISNEY kernel: TCP: eth0: Driver has suspect GRO implementation, TCP performance may be compromised.
+Jan 15 14:51:24 CHISNEY login[656]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 15 14:51:24 CHISNEY login[656]: PAM adding faulty module: pam_lastlog.so
+Jan 15 14:51:26 CHISNEY systemd-journald[64]: File /var/log/journal/3df124757ec048d185f7a09f74b05789/user-1001.journal corrupted or uncleanly shut down, renaming and replacing.
+Jan 15 15:58:56 CHISNEY Exception: 
+Jan 15 15:58:56 CHISNEY unknown: Operation canceled @p9io.cpp:258 (AcceptAsync)
+Jan 15 15:58:56 CHISNEY unknown: 
+Jan 15 15:58:57 CHISNEY systemd[1]: Failed unmounting init.mount - /init.
+-- Boot 1246099109a04d929ca31f15d84e7037 --
+Jan 15 16:01:34 CHISNEY kernel: MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+Jan 15 16:01:34 CHISNEY kernel: MMIO Stale Data CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html for more details.
+Jan 15 16:01:34 CHISNEY kernel: PCI: Fatal: No config space access function found
+Jan 15 16:01:34 CHISNEY kernel: PCI: System does not support PCI
+Jan 15 16:01:34 CHISNEY kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Jan 15 16:01:34 CHISNEY kernel: hv_balloon: Cold memory discard hypercall failed with status 1a00000005
+Jan 15 16:01:34 CHISNEY kernel: hv_balloon: Underlying Hyper-V does not support order less than 9. Hypercall failed
+Jan 15 16:01:34 CHISNEY kernel: hv_balloon: Defaulting to page_reporting_order 9
+Jan 15 16:01:34 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 15 16:01:34 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 15 16:01:34 CHISNEY kernel: weston[194]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+Jan 15 16:01:34 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 15 16:01:34 CHISNEY systemd-sysctl[80]: Couldn't write '1' to 'kernel/apparmor_restrict_unprivileged_userns', ignoring: No such file or directory
+Jan 15 16:01:34 CHISNEY systemd-journald[58]: File /var/log/journal/3df124757ec048d185f7a09f74b05789/system.journal corrupted or uncleanly shut down, renaming and replacing.
+Jan 15 16:01:36 CHISNEY (cron)[165]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jan 15 16:01:40 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 15 16:01:40 CHISNEY kernel: TCP: eth0: Driver has suspect GRO implementation, TCP performance may be compromised.
+Jan 15 16:01:43 CHISNEY login[581]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 15 16:01:43 CHISNEY login[581]: PAM adding faulty module: pam_lastlog.so
+Jan 15 16:01:44 CHISNEY systemd-journald[58]: File /var/log/journal/3df124757ec048d185f7a09f74b05789/user-1001.journal corrupted or uncleanly shut down, renaming and replacing.
+Jan 15 16:07:15 CHISNEY Exception: 
+Jan 15 16:07:15 CHISNEY unknown: Operation canceled @p9io.cpp:258 (AcceptAsync)
+Jan 15 16:07:15 CHISNEY unknown: 
+Jan 15 16:07:15 CHISNEY systemd[1]: Failed unmounting init.mount - /init.
+-- Boot cc62e303e196416682c47f8791a37eb5 --
+Jan 15 16:07:37 CHISNEY kernel: MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+Jan 15 16:07:37 CHISNEY kernel: MMIO Stale Data CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html for more details.
+Jan 15 16:07:37 CHISNEY kernel: PCI: Fatal: No config space access function found
+Jan 15 16:07:37 CHISNEY kernel: PCI: System does not support PCI
+Jan 15 16:07:37 CHISNEY kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Jan 15 16:07:37 CHISNEY kernel: hv_balloon: Cold memory discard hypercall failed with status 1900000005
+Jan 15 16:07:37 CHISNEY kernel: hv_balloon: Underlying Hyper-V does not support order less than 9. Hypercall failed
+Jan 15 16:07:37 CHISNEY kernel: hv_balloon: Defaulting to page_reporting_order 9
+Jan 15 16:07:37 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 15 16:07:37 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 15 16:07:37 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 15 16:07:37 CHISNEY kernel: weston[194]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+Jan 15 16:07:37 CHISNEY systemd-journald[58]: File /var/log/journal/3df124757ec048d185f7a09f74b05789/system.journal corrupted or uncleanly shut down, renaming and replacing.
+Jan 15 16:07:37 CHISNEY systemd-sysctl[92]: Couldn't write '1' to 'kernel/apparmor_restrict_unprivileged_userns', ignoring: No such file or directory
+Jan 15 16:07:39 CHISNEY (cron)[168]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jan 15 16:07:43 CHISNEY unknown: WSL (176) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 15 16:07:44 CHISNEY login[573]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 15 16:07:44 CHISNEY login[573]: PAM adding faulty module: pam_lastlog.so
+Jan 15 16:07:46 CHISNEY systemd-journald[58]: File /var/log/journal/3df124757ec048d185f7a09f74b05789/user-1001.journal corrupted or uncleanly shut down, renaming and replacing.
+Jan 15 17:07:51 CHISNEY Exception: 
+Jan 15 17:07:51 CHISNEY unknown: Operation canceled @p9io.cpp:258 (AcceptAsync)
+Jan 15 17:07:51 CHISNEY unknown: 
+Jan 15 17:07:52 CHISNEY systemd[1]: Failed unmounting init.mount - /init.
+-- Boot 2f88965901124f90a4dcc6b2fabf2fea --
+Jan 16 13:25:04 CHISNEY kernel: MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+Jan 16 13:25:04 CHISNEY kernel: MMIO Stale Data CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html for more details.
+Jan 16 13:25:04 CHISNEY kernel: PCI: Fatal: No config space access function found
+Jan 16 13:25:04 CHISNEY kernel: PCI: System does not support PCI
+Jan 16 13:25:04 CHISNEY kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Jan 16 13:25:04 CHISNEY kernel: hv_balloon: Cold memory discard hypercall failed with status 1a00000005
+Jan 16 13:25:04 CHISNEY kernel: hv_balloon: Underlying Hyper-V does not support order less than 9. Hypercall failed
+Jan 16 13:25:04 CHISNEY kernel: hv_balloon: Defaulting to page_reporting_order 9
+Jan 16 13:25:04 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 16 13:25:04 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 16 13:25:04 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 16 13:25:04 CHISNEY kernel: weston[196]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+Jan 16 13:25:04 CHISNEY systemd-sysctl[74]: Couldn't write '1' to 'kernel/apparmor_restrict_unprivileged_userns', ignoring: No such file or directory
+Jan 16 13:25:05 CHISNEY systemd-journald[58]: File /var/log/journal/3df124757ec048d185f7a09f74b05789/system.journal corrupted or uncleanly shut down, renaming and replacing.
+Jan 16 13:25:06 CHISNEY (cron)[165]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jan 16 13:25:09 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 16 13:25:10 CHISNEY login[643]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 16 13:25:10 CHISNEY login[643]: PAM adding faulty module: pam_lastlog.so
+Jan 16 13:25:11 CHISNEY systemd-journald[58]: File /var/log/journal/3df124757ec048d185f7a09f74b05789/user-1001.journal corrupted or uncleanly shut down, renaming and replacing.
+Jan 16 15:02:17 CHISNEY Exception: 
+Jan 16 15:02:17 CHISNEY unknown: Operation canceled @p9io.cpp:258 (AcceptAsync)
+Jan 16 15:02:17 CHISNEY unknown: 
+Jan 16 15:02:17 CHISNEY systemd[1]: Failed unmounting init.mount - /init.
+-- Boot 0f663a8974294d68a64b6a7744da0208 --
+Jan 16 17:16:20 CHISNEY kernel: MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+Jan 16 17:16:20 CHISNEY kernel: MMIO Stale Data CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html for more details.
+Jan 16 17:16:20 CHISNEY kernel: PCI: Fatal: No config space access function found
+Jan 16 17:16:20 CHISNEY kernel: PCI: System does not support PCI
+Jan 16 17:16:20 CHISNEY kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Jan 16 17:16:20 CHISNEY kernel: hv_balloon: Cold memory discard hypercall failed with status 1d00000005
+Jan 16 17:16:20 CHISNEY kernel: hv_balloon: Underlying Hyper-V does not support order less than 9. Hypercall failed
+Jan 16 17:16:20 CHISNEY kernel: hv_balloon: Defaulting to page_reporting_order 9
+Jan 16 17:16:20 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 16 17:16:20 CHISNEY unknown: WSL (1 - init(docker-desktop)) ERROR: ConfigApplyWindowsLibPath:2092: open /etc/ld.so.conf.d/ld.wsl.conf failed 2
+Jan 16 17:16:20 CHISNEY unknown: WSL (1 - init(docker-desktop)) WARNING: /usr/share/zoneinfo/Europe/Budapest not found. Is the tzdata package installed?
+Jan 16 17:16:20 CHISNEY kernel: weston[207]: memfd_create() called without MFD_EXEC or MFD_NOEXEC_SEAL set
+Jan 16 17:16:20 CHISNEY kernel: netlink: 'initd': attribute type 4 has an invalid length.
+Jan 16 17:16:20 CHISNEY kernel: virtiofs: Unknown parameter 'negative_dentry_timeout'
+Jan 16 17:16:20 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 16 17:16:20 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 16 17:16:20 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 16 17:16:20 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 16 17:16:20 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 16 17:16:20 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 16 17:16:20 CHISNEY unknown: Failed to connect to bus: No such file or directory
+Jan 16 17:16:20 CHISNEY systemd-sysctl[92]: Couldn't write '1' to 'kernel/apparmor_restrict_unprivileged_userns', ignoring: No such file or directory
+Jan 16 17:16:20 CHISNEY systemd-journald[70]: File /var/log/journal/3df124757ec048d185f7a09f74b05789/system.journal corrupted or uncleanly shut down, renaming and replacing.
+Jan 16 17:16:23 CHISNEY (cron)[191]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Jan 16 17:16:28 CHISNEY unknown: WSL (2 - init-systemd(Ubuntu)) ERROR: WaitForBootProcess:3432: /sbin/init failed to start within 10000ms
+Jan 16 17:16:29 CHISNEY agetty[207]: /dev/console: cannot set process group: Inappropriate ioctl for device
+Jan 16 17:16:29 CHISNEY login[333]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 16 17:16:29 CHISNEY login[333]: PAM adding faulty module: pam_lastlog.so
+Jan 16 17:16:32 CHISNEY systemd-journald[70]: File /var/log/journal/3df124757ec048d185f7a09f74b05789/user-1001.journal corrupted or uncleanly shut down, renaming and replacing.
+Jan 16 17:16:33 CHISNEY login[480]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 16 17:16:33 CHISNEY login[480]: PAM adding faulty module: pam_lastlog.so
+Jan 16 17:16:37 CHISNEY addgroup[575]: The group `docker' already exists.
+Jan 16 17:16:38 CHISNEY addgroup[667]: addgroup with two arguments is an unspecified operation.
+Jan 16 21:40:21 CHISNEY unknown: WSL (1 - init(docker-desktop)) WARNING: /usr/share/zoneinfo/Europe/Budapest not found. Is the tzdata package installed?
+Jan 17 10:52:22 CHISNEY unknown: WSL (1 - init(docker-desktop)) WARNING: /usr/share/zoneinfo/Europe/Budapest not found. Is the tzdata package installed?
+Jan 17 10:52:44 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 17 11:16:16 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 17 13:05:18 CHISNEY unknown: WSL (1 - init(docker-desktop)) WARNING: /usr/share/zoneinfo/Europe/Budapest not found. Is the tzdata package installed?
+Jan 17 13:05:18 CHISNEY unknown: WSL (1 - init(docker-desktop)) WARNING: /usr/share/zoneinfo/Europe/Budapest not found. Is the tzdata package installed?
+Jan 17 13:05:18 CHISNEY unknown: WSL (1 - init(docker-desktop)) WARNING: /usr/share/zoneinfo/Europe/Budapest not found. Is the tzdata package installed?
+Jan 17 15:31:17 CHISNEY unknown: WSL (1 - init(docker-desktop)) WARNING: /usr/share/zoneinfo/Europe/Budapest not found. Is the tzdata package installed?
+Jan 17 15:32:11 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 17 21:27:20 CHISNEY unknown: WSL (1 - init(docker-desktop)) WARNING: /usr/share/zoneinfo/Europe/Budapest not found. Is the tzdata package installed?
+Jan 17 21:27:38 CHISNEY unknown: WSL (1 - init(docker-desktop)) WARNING: /usr/share/zoneinfo/Europe/Budapest not found. Is the tzdata package installed?
+Jan 17 22:18:40 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -3
+Jan 17 22:18:40 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 17 22:31:59 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 18 02:28:36 CHISNEY unknown: WSL (1 - init(docker-desktop)) WARNING: /usr/share/zoneinfo/Europe/Budapest not found. Is the tzdata package installed?
+Jan 18 11:17:38 CHISNEY unknown: WSL (1 - init(docker-desktop)) WARNING: /usr/share/zoneinfo/Europe/Budapest not found. Is the tzdata package installed?
