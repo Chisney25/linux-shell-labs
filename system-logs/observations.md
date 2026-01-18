@@ -24,3 +24,10 @@
 - SSH-related events show successful sessions with no failed login attempts observed.
 - No suspicious or repeated authentication failures detected.
 
+## Severity & Signal Extraction
+
+- Warning logs mostly relate to service startup messages; no critical failures detected; however there was a log I observed that worths taking note of which is "MDS CPU bug present and SMT on, data leak possible".
+- Error logs are normal; no repeated errors observed.
+- High-signal logs for nginx and docker indicate normal operation with no disruptions.
+- This demonstrates how to filter large log volumes to actionable items.
+

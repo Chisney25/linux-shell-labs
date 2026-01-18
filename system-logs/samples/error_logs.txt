@@ -1,0 +1,78 @@
+Jan 14 00:21:39 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:49:25 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:53:35 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:56:12 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:56:49 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:58:01 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:58:15 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 10:58:50 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 11:23:55 CHISNEY unknown: WSL (174) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: SendMessage:131: Failed to write message LxGnsMessagePortListenerRelayStop. Channel: localhost
+Jan 14 16:11:39 CHISNEY unknown: WSL (176) ERROR: Broken pipe @C:/__w/1/s/src/shared/inc\SocketChannel.h:132 (SendMessage)
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: SendMessage:131: Failed to write message LxGnsMessagePortListenerRelayStop. Channel: localhost
+Jan 14 16:11:39 CHISNEY unknown: WSL (176) ERROR: Broken pipe @C:/__w/1/s/src/shared/inc\SocketChannel.h:132 (SendMessage)
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: SendMessage:131: Failed to write message LxGnsMessagePortListenerRelayStop. Channel: localhost
+Jan 14 16:11:39 CHISNEY unknown: WSL (176) ERROR: Broken pipe @C:/__w/1/s/src/shared/inc\SocketChannel.h:132 (SendMessage)
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: SendMessage:131: Failed to write message LxGnsMessagePortListenerRelayStop. Channel: localhost
+Jan 14 16:11:39 CHISNEY unknown: WSL (176) ERROR: Broken pipe @C:/__w/1/s/src/shared/inc\SocketChannel.h:132 (SendMessage)
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: SendMessage:131: Failed to write message LxGnsMessagePortListenerRelayStop. Channel: localhost
+Jan 14 16:11:39 CHISNEY unknown: WSL (176) ERROR: Broken pipe @C:/__w/1/s/src/shared/inc\SocketChannel.h:132 (SendMessage)
+Jan 14 16:11:39 CHISNEY unknown: WSL (176 - ) ERROR: RunPortTracker:499: Failed to start the guest side of the localhost relay
+Jan 14 16:11:42 CHISNEY systemd[1]: Failed unmounting init.mount - /init.
+-- Boot b2ac4fbe574d4a3e8237d5dd98048563 --
+Jan 15 14:51:16 CHISNEY kernel: PCI: Fatal: No config space access function found
+Jan 15 14:51:16 CHISNEY kernel: hv_balloon: Cold memory discard hypercall failed with status 1800000005
+Jan 15 14:51:16 CHISNEY kernel: hv_balloon: Underlying Hyper-V does not support order less than 9. Hypercall failed
+Jan 15 14:51:16 CHISNEY kernel: hv_balloon: Defaulting to page_reporting_order 9
+Jan 15 14:51:16 CHISNEY unknown: WSL (176) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 15 14:51:24 CHISNEY login[656]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 15 14:51:24 CHISNEY login[656]: PAM adding faulty module: pam_lastlog.so
+Jan 15 15:58:57 CHISNEY systemd[1]: Failed unmounting init.mount - /init.
+-- Boot 1246099109a04d929ca31f15d84e7037 --
+Jan 15 16:01:34 CHISNEY kernel: PCI: Fatal: No config space access function found
+Jan 15 16:01:34 CHISNEY kernel: hv_balloon: Cold memory discard hypercall failed with status 1a00000005
+Jan 15 16:01:34 CHISNEY kernel: hv_balloon: Underlying Hyper-V does not support order less than 9. Hypercall failed
+Jan 15 16:01:34 CHISNEY kernel: hv_balloon: Defaulting to page_reporting_order 9
+Jan 15 16:01:40 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 15 16:01:43 CHISNEY login[581]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 15 16:01:43 CHISNEY login[581]: PAM adding faulty module: pam_lastlog.so
+Jan 15 16:07:15 CHISNEY systemd[1]: Failed unmounting init.mount - /init.
+-- Boot cc62e303e196416682c47f8791a37eb5 --
+Jan 15 16:07:37 CHISNEY kernel: PCI: Fatal: No config space access function found
+Jan 15 16:07:37 CHISNEY kernel: hv_balloon: Cold memory discard hypercall failed with status 1900000005
+Jan 15 16:07:37 CHISNEY kernel: hv_balloon: Underlying Hyper-V does not support order less than 9. Hypercall failed
+Jan 15 16:07:37 CHISNEY kernel: hv_balloon: Defaulting to page_reporting_order 9
+Jan 15 16:07:43 CHISNEY unknown: WSL (176) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 15 16:07:44 CHISNEY login[573]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 15 16:07:44 CHISNEY login[573]: PAM adding faulty module: pam_lastlog.so
+Jan 15 17:07:52 CHISNEY systemd[1]: Failed unmounting init.mount - /init.
+-- Boot 2f88965901124f90a4dcc6b2fabf2fea --
+Jan 16 13:25:04 CHISNEY kernel: PCI: Fatal: No config space access function found
+Jan 16 13:25:04 CHISNEY kernel: hv_balloon: Cold memory discard hypercall failed with status 1a00000005
+Jan 16 13:25:04 CHISNEY kernel: hv_balloon: Underlying Hyper-V does not support order less than 9. Hypercall failed
+Jan 16 13:25:04 CHISNEY kernel: hv_balloon: Defaulting to page_reporting_order 9
+Jan 16 13:25:09 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 16 13:25:10 CHISNEY login[643]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 16 13:25:10 CHISNEY login[643]: PAM adding faulty module: pam_lastlog.so
+Jan 16 15:02:17 CHISNEY systemd[1]: Failed unmounting init.mount - /init.
+-- Boot 0f663a8974294d68a64b6a7744da0208 --
+Jan 16 17:16:20 CHISNEY kernel: PCI: Fatal: No config space access function found
+Jan 16 17:16:20 CHISNEY kernel: hv_balloon: Cold memory discard hypercall failed with status 1d00000005
+Jan 16 17:16:20 CHISNEY kernel: hv_balloon: Underlying Hyper-V does not support order less than 9. Hypercall failed
+Jan 16 17:16:20 CHISNEY kernel: hv_balloon: Defaulting to page_reporting_order 9
+Jan 16 17:16:20 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 16 17:16:20 CHISNEY unknown: WSL (1 - init(docker-desktop)) ERROR: ConfigApplyWindowsLibPath:2092: open /etc/ld.so.conf.d/ld.wsl.conf failed 2
+Jan 16 17:16:20 CHISNEY kernel: virtiofs: Unknown parameter 'negative_dentry_timeout'
+Jan 16 17:16:28 CHISNEY unknown: WSL (2 - init-systemd(Ubuntu)) ERROR: WaitForBootProcess:3432: /sbin/init failed to start within 10000ms
+Jan 16 17:16:29 CHISNEY login[333]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 16 17:16:29 CHISNEY login[333]: PAM adding faulty module: pam_lastlog.so
+Jan 16 17:16:33 CHISNEY login[480]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+Jan 16 17:16:33 CHISNEY login[480]: PAM adding faulty module: pam_lastlog.so
+Jan 16 17:16:37 CHISNEY addgroup[575]: The group `docker' already exists.
+Jan 16 17:16:38 CHISNEY addgroup[667]: addgroup with two arguments is an unspecified operation.
+Jan 17 10:52:44 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 17 11:16:16 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 17 15:32:11 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 17 22:18:40 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -3
+Jan 17 22:18:40 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
+Jan 17 22:31:59 CHISNEY unknown: WSL (175) ERROR: CheckConnection: getaddrinfo() failed: -5
