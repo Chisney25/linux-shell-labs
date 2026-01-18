@@ -31,3 +31,11 @@
 - High-signal logs for nginx and docker indicate normal operation with no disruptions.
 - This demonstrates how to filter large log volumes to actionable items.
 
+## Overall Operational Insights
+
+- System and service logs indicate a stable and healthy environment with no critical failures.
+- Boot and service logs are useful for identifying startup issues and service misconfigurations.
+- Authentication logs provide visibility into user access and privilege escalation activity.
+- Severity filtering helps reduce noise and focus on actionable events during incidents.
+- Effective log management is essential for troubleshooting, security auditing, and system reliability.
+
