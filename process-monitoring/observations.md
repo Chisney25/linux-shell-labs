@@ -17,3 +17,16 @@
 - High `wait %` → IO bottleneck
 - Memory or swap pressure → potential memory-bound state
 
+## Memory & Load Analysis
+
+### Memory (free -h)
+- Total memory:1.9Gi
+- Available memory:1.5Gi
+- Swap usage:0B
+- Interpretation:the available memory compared to the total memory shows that there is still enough memory
+
+### Load (uptime)
+- Load averages (1m;0.00, 5m;0.01, 15m;0.00):
+- CPU cores:2
+- Interpretation:since Load << cores → system is healthy
+
